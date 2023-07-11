@@ -1,0 +1,11 @@
+services:
+  database:
+    image: postgres:latest
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: MyStoredb
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+

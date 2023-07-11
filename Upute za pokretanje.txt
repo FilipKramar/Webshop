@@ -1,0 +1,15 @@
+Upute za pokretanje projekta lokalno:
+
+Potrebni alati :Intelij,Java 17,Docker, Visual Studio Code sa Live Server package
+
+https://mega.nz/folder/I19hBAzS#sSymd19Ol3m4OUWjWUEXkQ - video snimka demonstacije stranice sa slikama stranice i pojedinih funkcionalnosti stranice
+
+1.Skinuti github zip file
+2.Otpakirati zip na željeno mjesto
+3.Otvoriti store mapu unutar intelij-a 
+4.U terminal upisati naredbu docker-compose up -d (stvara postgre database i popunjava ga sa podacima pomoću liquibasea) 
+5.Pokrenuti aplikaciju odabirom storeapplication i run 
+6.Otvoriti folder u vs studio codu
+7.Desni klik na .html datoteku i open with live server ( ukoliko je live server drukcija domena od http://127.0.0.1:5500/index.html zamijeniti link u controlerima sa tom domenom koja je vasa)
+
+
